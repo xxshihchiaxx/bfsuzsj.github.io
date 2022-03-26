@@ -1,0 +1,131 @@
+/* body {background-image: url(images/background.jpg);} */
+body{background-color:aliceblue}
+.icon{margin-left: 100px;}
+div.mainnav ul {
+    list-style-type: none;
+    margin-right: 50px;
+    padding: 0;
+    overflow: hidden;
+    }
+  
+    div.mainnav li {
+    float: right;
+    border-right:1px solid #bbb;
+  }
+  
+  
+  div.mainnav li a {
+    display: block;
+    color: rgb(73, 71, 71);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  div.mainnav li a:hover:not(.active) {
+    color:darkgray;
+  }
+  div.mainnav .active{
+    text-decoration: underline;
+  }
+    
+*{box-sizing: border-box;
+}
+.box{float:left;width:50%;padding: 50px;font-size: 40px;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight: 900;text-align: center;font-style: italic;color:rgb(87, 85, 85)}
+.big{line-height: 1.5;}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.download{text-align: center;}
+.ntpic{text-align: center;}
+
+div.gallery {
+  float:left;
+  padding: 80px;
+  width: 50%;
+
+}
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align:center;
+  font-size: x-large;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: rgb(82, 88, 94);
+}
+
+div.detail {
+text-align: justify;
+color: dimgrey;
+line-height: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color:rgba(255, 255, 255, 0.514);
+}
+
+div.leftnav ul {
+  list-style-type: none;
+  margin-top: 2%;
+  padding: 10;
+  width: 20%;
+  /* background-color: #f1f1f1; */
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+div.leftnav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius:10px;
+}
+
+div.leftnav li a.active {
+  background-color:rgb(121, 125, 126);
+  color: white;
+}
+
+div.leftnav li a:hover:not(.active) {
+  background-color: rgb(163, 194, 219);
+  color: white;
+}
+/* unvisited link */
+a:link {
+  color: rgb(28, 145, 199);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(28, 145, 199);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(109, 106, 108);
+}
+
+/* selected link */
+a:active {
+  color:rgb(109, 106, 108);
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+}
